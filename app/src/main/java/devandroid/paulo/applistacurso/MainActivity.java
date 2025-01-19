@@ -15,7 +15,7 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1;
+    Button btn1.;
     TextView txt1;
 
     @Override
