@@ -15,7 +15,7 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1.;
+    Button btn1;
     TextView txt1;
 
     @Override
@@ -24,13 +24,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         txt1 = findViewById(R.id.txt);
-        btn1 = findViewById(R.id.btn);
 
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                txt1.setText("Bora programar");
-            }
-        });
+
+
     }
 }
